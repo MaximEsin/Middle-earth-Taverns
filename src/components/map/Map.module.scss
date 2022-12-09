@@ -1,0 +1,105 @@
+.map {
+  &__wrapper {
+    background-color: #f2efeb;
+  }
+  &__section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-right: 30px;
+    display: flex;
+  }
+  &__img {
+    position: relative;
+  }
+  &__aside {
+    max-width: 146px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  &__legend__title {
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #252525;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+  }
+}
+.legendItem {
+  &__section {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 176px;
+  }
+  &__text {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #252525;
+  }
+}
+.prancingPony {
+  left: 359px;
+  top: 233px;
+}
+.keenEye {
+  left: 523px;
+  top: 577px;
+}
+.drunkenMine {
+  left: 759px;
+  top: 135px;
+}
+.greyThunder {
+  left: 900px;
+  top: 146px;
+}
+.goldenLeaf {
+  left: 577px;
+  top: 396px;
+}
+.brightStar {
+  left: 532px;
+  top: 218px;
+}
+.cruelGoblin {
+  left: 532px;
+  top: 328px;
+}
+.laughingWarg {
+  left: 821px;
+  top: 612px;
+}
+.greenDragon {
+  left: 278px;
+  top: 232px;
+}
+.happyPig {
+  left: 302px;
+  top: 239px;
+}
+.point {
+  position: absolute;
+  cursor: pointer;
+  transition: scale 0.3s ease 0s;
+}
+.point:hover {
+  scale: (1.4);
+}
+@media (max-width: 1202px) {
+  .map__img {
+    width: 80%;
+    height: 80%;
+  }
+}

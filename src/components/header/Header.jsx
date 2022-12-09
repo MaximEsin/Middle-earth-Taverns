@@ -3,12 +3,19 @@ import styles from "./Header.module.scss";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
 
-const Header = () => {
+const Header = ({ about, map, TavernDescription, func }) => {
   return (
-    <header className={styles.header__container}>
-      <Logo />
-      <Navbar />
-    </header>
+    <section className={styles.header__wrapper}>
+      <header className={styles.header__container}>
+        <Logo />
+        <Navbar
+          about={about}
+          map={map}
+          TavernDescription={TavernDescription}
+          func={func}
+        />
+      </header>
+    </section>
   );
 };
 

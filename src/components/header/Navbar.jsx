@@ -1,13 +1,22 @@
 import React from "react";
 import styles from "./Header.module.scss";
 
-const Navbar = () => {
+const Navbar = ({ about, map, TavernDescription, func }) => {
   return (
-    <section className={styles.header__navbar}>
-      <h2 className={styles.header__navbar__item}>About</h2>
-      <h2 className={styles.header__navbar__item}>Map</h2>
-      <h2 className={styles.header__navbar__item}>Tavern description</h2>
-    </section>
+    <nav className={styles.header__navbar}>
+      <h2 onClick={() => func(about)} className={styles.header__navbar__item}>
+        About
+      </h2>
+      <h2 onClick={() => func(map)} className={styles.header__navbar__item}>
+        Map
+      </h2>
+      <h2
+        onClick={() => func(TavernDescription)}
+        className={styles.header__navbar__item}
+      >
+        Tavern description
+      </h2>
+    </nav>
   );
 };
 
