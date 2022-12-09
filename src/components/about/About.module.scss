@@ -1,0 +1,31 @@
+.about {
+  &__section {
+    max-width: 1200px;
+    max-height: 185px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  &__title {
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+    color: #252525;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 25px;
+  }
+}
