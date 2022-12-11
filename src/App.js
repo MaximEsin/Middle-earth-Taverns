@@ -5,6 +5,7 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Map from "./components/map/Map";
 import Description from "./components/description/Description";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const about = useRef(null);
@@ -129,6 +130,7 @@ function App() {
           makeTavern10={makeTavern10}
         />
         <Description TavernDescription={TavernDescription} tavern={tavern} />
+        <Footer />
       </main>
     </BrowserRouter>
   );
