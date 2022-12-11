@@ -8,7 +8,19 @@ import purple from "../../img/purple.svg";
 import red from "../../img/red.svg";
 import yellow from "../../img/yellow.svg";
 
-const Map = ({ map }) => {
+const Map = ({
+  map,
+  makeTavern1,
+  makeTavern2,
+  makeTavern3,
+  makeTavern4,
+  makeTavern5,
+  makeTavern6,
+  makeTavern7,
+  makeTavern8,
+  makeTavern9,
+  makeTavern10,
+}) => {
   let classNames = require("classnames");
   const Races = {
     h: "Humans",
@@ -24,6 +36,7 @@ const Map = ({ map }) => {
         <section className={styles.map__img}>
           <img src={MapLotr} alt="Map of middle-earth" />
           <img
+            onClick={makeTavern1}
             className={classNames(styles.prancingPony, styles.point)}
             width={10}
             height={10}
@@ -31,6 +44,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern2}
             className={classNames(styles.keenEye, styles.point)}
             width={10}
             height={10}
@@ -38,6 +52,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern3}
             className={classNames(styles.drunkenMine, styles.point)}
             width={10}
             height={10}
@@ -45,6 +60,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern4}
             className={classNames(styles.greyThunder, styles.point)}
             width={10}
             height={10}
@@ -52,6 +68,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern5}
             className={classNames(styles.goldenLeaf, styles.point)}
             width={10}
             height={10}
@@ -59,6 +76,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern6}
             className={classNames(styles.brightStar, styles.point)}
             width={10}
             height={10}
@@ -66,6 +84,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern7}
             className={classNames(styles.cruelGoblin, styles.point)}
             width={10}
             height={10}
@@ -73,6 +92,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern8}
             className={classNames(styles.laughingWarg, styles.point)}
             width={10}
             height={10}
@@ -80,6 +100,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern9}
             className={classNames(styles.greenDragon, styles.point)}
             width={10}
             height={10}
@@ -87,6 +108,7 @@ const Map = ({ map }) => {
             alt="point"
           />
           <img
+            onClick={makeTavern10}
             className={classNames(styles.happyPig, styles.point)}
             width={10}
             height={10}

@@ -1,0 +1,22 @@
+.footer {
+  &__wrapper {
+    background-color: #a6a29f;
+  }
+  &__container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  &__dev {
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #252525;
+  }
+}

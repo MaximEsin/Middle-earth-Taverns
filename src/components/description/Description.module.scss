@@ -1,0 +1,42 @@
+.description {
+  &__wrapper {
+    background-color: #f2efeb;
+  }
+  &__section {
+    margin: 0 auto;
+    width: 1200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 39px;
+    color: #252525;
+    margin-bottom: 50px;
+  }
+  &__body {
+    display: flex;
+    font-family: "JejuGothic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #252525;
+  }
+  &__body__main {
+    width: 850px;
+    height: 252px;
+    flex-wrap: wrap;
+  }
+  &__body__aside {
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+}
